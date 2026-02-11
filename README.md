@@ -1,0 +1,1 @@
+[![Qodana](https://github.com/AlekseyKurnakov/java-testing-sandbox/actions/workflows/qodana_code_quality.yml/badge.svg)](https://github.com/AlekseyKurnakov/java-testing-sandbox/actions/workflows/qodana_code_quality.yml)
