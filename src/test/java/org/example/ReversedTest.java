@@ -18,4 +18,5 @@ public class ReversedTest {
 
         assertEquals(Reversed.reverse(input), expected);
     }
+
 }
