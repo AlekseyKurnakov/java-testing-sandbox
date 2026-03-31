@@ -1,4 +1,9 @@
 package org.example.states;
 
-public class State {
+public interface State {
+    String getTitle();
+    void enter();
+    void exit();
+    void update();
+    int handleAttack();
 }
