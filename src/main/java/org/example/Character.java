@@ -5,9 +5,16 @@ import org.example.states.State;
 public class Character{
 
     private String name;
-    private final int maxHealth = 100;
-    private int currentHealth; //текущий уровень здоровья
-    private final int baseAttackPower = 20;//номинальная сила атаки персонажа.
-                                            // В течении жизни персонажа не меняется, является базой для расчета текущей силы атаки
-    private int currentAttackPower; //текущая сила атаки, может отличаться от номинальной в зависимости от состояния персонажа
+    private final int maxHealth;
+    private int currentHealth;
+    private final int baseAttackPower;
+    private int currentAttackPower;
+
+    public Character(String name, int health, int attack) {
+        this.name = name;
+        maxHealth = health;
+        currentHealth = health;
+        baseAttackPower = attack;
+        currentAttackPower = attack;
+    }
 }
